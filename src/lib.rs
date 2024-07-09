@@ -76,7 +76,7 @@ pub mod keypath;
 mod number;
 mod parser;
 mod ser;
-mod util;
+pub mod util;
 mod value;
 
 pub use de::from_slice;
