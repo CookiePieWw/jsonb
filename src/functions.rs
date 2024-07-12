@@ -1746,7 +1746,7 @@ fn scalar_to_string(
     Ok(())
 }
 
-fn escape_scalar_string(value: &[u8], start: usize, end: usize, json: &mut String) {
+pub fn escape_scalar_string(value: &[u8], start: usize, end: usize, json: &mut String) {
     json.push('\"');
     let mut last_start = start;
     for i in start..end {
