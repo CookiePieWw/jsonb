@@ -68,7 +68,7 @@ mod constants;
 mod de;
 mod error;
 mod from;
-mod functions;
+pub mod functions;
 mod iterator;
 mod jentry;
 pub mod jsonpath;
